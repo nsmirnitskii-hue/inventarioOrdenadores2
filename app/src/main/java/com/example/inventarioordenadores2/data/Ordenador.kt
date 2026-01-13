@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
 data class Ordenador(
 @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
-    val identificador: Int = 0,
+    val identificador: String = "",
     val modelo: String = "",
     val añoActivacion: Int = 0
 )
